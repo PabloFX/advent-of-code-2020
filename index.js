@@ -2,7 +2,8 @@ const day01 = require("./D01");
 const day02 = require("./D02");
 const day03 = require("./D03");
 const day04 = require("./D04");
-const day05  = require("./D05");
+const day05 = require("./D05");
+const day06 = require("./D06");
 
 
 (() => {
@@ -17,4 +18,6 @@ const day05  = require("./D05");
     day04();
     console.log("Day 5: ");
     day05();
+    console.log("Day 6: ");
+    day06();
 })();
