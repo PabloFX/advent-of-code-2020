@@ -1,6 +1,6 @@
 const readFile = require("../utils/readFile");
 
-const day8Riddle = () => {
+const day9Riddle = () => {
     const input = readFile(__dirname).split("\n").map(el => parseInt(el, 10))
 
     function checkIfSumValid(numberInput, array) {
@@ -61,4 +61,4 @@ const day8Riddle = () => {
 
 }
 
-module.exports = day8Riddle;
+module.exports = day9Riddle;
