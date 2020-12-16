@@ -13,6 +13,7 @@ const day12 = require("./D12");
 const day13 = require("./D13");
 const day14 = require("./D14");
 const day15 = require("./D15");
+const day16 = require("./D16");
 
 (() => {
     console.log("Let's crack some riddles");
@@ -46,4 +47,6 @@ const day15 = require("./D15");
     day14();
     console.log("Day 15: ");
     day15();
+    console.log("Day 16: ");
+    day16();
 })();
